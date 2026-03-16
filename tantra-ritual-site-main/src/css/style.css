@@ -1,0 +1,485 @@
+/* ===== ОБЩИЕ СТИЛИ ===== */
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  background: #f7f6f3;
+  color: #1f1f1f;
+  line-height: 1.6;
+}
+
+section {
+  padding: 90px 8%;
+}
+
+/* ===== HEADER ===== */
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  z-index: 1000;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
+}
+
+.logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 26px;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+
+nav {
+  position: absolute;
+  right: 40px;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 15px;
+}
+
+nav a:hover {
+  opacity: 0.6;
+}
+
+/* ===== HERO ===== */
+
+/* ===== HERO ===== */
+
+.hero {
+  position: relative;
+  min-height: 100vh;
+  margin-top: 80px;
+  padding: 40px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.32),
+    rgba(0, 0, 0, 0.42)
+  );
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 980px;
+  color: #ffffff;
+}
+
+.hero h1 {
+  margin: 0 0 28px;
+  font-size: 72px;
+  line-height: 1.05;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+}
+
+.hero p {
+  margin: 0 auto;
+  max-width: 760px;
+  font-size: 24px;
+  line-height: 1.65;
+  font-weight: 400;
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.3);
+}
+
+.btn-instagram {
+  display: inline-block;
+  margin-top: 36px;
+  padding: 18px 42px;
+  background: rgba(22, 22, 22, 0.9);
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 4px;
+  transition: 0.25s ease;
+}
+
+.btn-instagram:hover {
+  background: #111111;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 900px) {
+  .hero {
+    min-height: 88vh;
+    padding: 32px 18px;
+  }
+
+  .hero-content {
+    max-width: 100%;
+  }
+
+  .hero h1 {
+    font-size: 42px;
+    line-height: 1.08;
+    margin-bottom: 22px;
+  }
+
+  .hero p {
+    font-size: 18px;
+    line-height: 1.55;
+    max-width: 100%;
+  }
+
+  .btn-instagram {
+    margin-top: 28px;
+    padding: 16px 30px;
+    font-size: 16px;
+  }
+}
+
+/* ===== ABOUT ===== */
+
+.about {
+  background: white;
+  text-align: center;
+}
+
+.about p {
+  font-size: 24px;
+  max-width: 850px;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+.about-photos {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.about-photos img {
+  width: 320px;
+  height: 420px;
+  object-fit: cover;
+}
+
+/* ===== SESSION ===== */
+
+.sessions {
+  background: #110f0bc0;
+  padding: 100px 8%;
+}
+
+.session-block {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  max-width: 1200px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.session-block img {
+  width: 620px;
+  height: 420px;
+  object-fit: cover;
+}
+
+.session-text h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #f4f4f4;
+}
+
+.session-text p {
+  font-size: 18px;
+  color: #f4f4f4;
+}
+
+.btn-read {
+  display: inline-block;
+  margin-top: 35px;
+  padding: 18px 45px;
+  background: #bf803c;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.btn-read:hover {
+  background: #000;
+}
+
+/* ===== ГАЛЕРЕЯ ===== */
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  max-width: 1300px;
+  margin: auto;
+}
+
+.gallery-section {
+  background: white;
+  padding: 100px 8%;
+}
+
+.gallery-title {
+  text-align: center;
+  font-size: 36px;
+  margin: 0 auto 60px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 620px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+/* ===== FAQ ===== */
+
+.faq {
+  background: #110f0bc0;
+  color: #f4f4f4;
+  max-width: 1680px;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  padding: 80px 60px;
+  border-radius: 6px;
+}
+
+.faq h2 {
+  font-size: 36px;
+  margin-bottom: 50px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+/* карточка вопроса */
+
+.faq-item {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+/* кнопка вопроса */
+
+.faq-question {
+  font-size: 20px;
+  padding: 22px 0;
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  color: #f4f4f4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.faq-question:hover {
+  color: #ffffff;
+  opacity: 0.85;
+}
+
+/* ответ */
+
+.faq-answer {
+  font-size: 18px;
+  line-height: 1.6;
+  padding: 0 0 25px 0;
+  display: none;
+  color: #d8d8d8;
+}
+
+/* состояние открытого блока */
+
+.faq-item.active .faq-question {
+  color: #ffffff;
+}
+
+.faq-item.active {
+  background: rgba(255, 255, 255, 0.04);
+  padding-left: 10px;
+  border-left: 3px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Instagram кнопка */
+
+.faq .btn-instagram {
+  display: block;
+  margin: 60px auto 0;
+  width: fit-content;
+}
+/* ===== HERO WIDE ===== */
+
+.hero-wide {
+  position: relative;
+}
+
+.hero-wide img {
+  width: 100%;
+  height: 520px;
+  object-fit: cover;
+}
+
+/* ===== FOOTER ===== */
+
+footer {
+  background: #1f1f1f;
+  color: white;
+  text-align: center;
+  padding: 50px;
+  font-size: 18px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+/* ===== MOBILE ===== */
+
+@media (max-width: 900px) {
+  nav ul {
+    display: none;
+  }
+
+  .burger {
+    position: absolute;
+    right: 25px;
+    cursor: pointer;
+  }
+
+  .burger div {
+    width: 25px;
+    height: 3px;
+    background: #000;
+    margin: 5px;
+  }
+
+  .hero h1 {
+    font-size: 38px;
+  }
+
+  .hero p {
+    font-size: 18px;
+  }
+
+  .about-photos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .session-block {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* BURGER MENU */
+
+.nav-open {
+  display: flex !important;
+  flex-direction: column;
+  position: absolute;
+  top: 80px;
+  right: 20px;
+  background: white;
+  padding: 30px;
+  gap: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* LIGHTBOX */
+
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+}
+
+.lightbox img {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+/* SCROLL ANIMATION */
+
+.hidden {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: 0.7s;
+}
+
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* SCROLL TOP */
+
+.to-top {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 50px;
+  height: 50px;
+  background: black;
+  color: white;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 20px;
+}
