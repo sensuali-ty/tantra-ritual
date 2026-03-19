@@ -59,8 +59,34 @@ nav a {
 nav a:hover {
   opacity: 0.6;
 }
+/* ===== Lang switch ===== */
+.lang-switch {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
 
-/* ===== HERO ===== */
+.lang-switch a {
+  text-decoration: none;
+  color: #333;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.lang-switch a:hover {
+  opacity: 1;
+}
+
+.lang-switch span {
+  opacity: 0.3;
+}
+
+.lang-switch a.active {
+  opacity: 1;
+  font-weight: 600;
+}
 
 /* ===== HERO ===== */
 
