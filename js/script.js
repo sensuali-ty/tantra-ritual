@@ -10,7 +10,6 @@ if (burger) {
 }
 
 // ===== FAQ =====
-
 const faqItems = document.querySelectorAll('.faq-item');
 
 faqItems.forEach((item) => {
@@ -18,11 +17,19 @@ faqItems.forEach((item) => {
   const answer = item.querySelector('.faq-answer');
 
   question.addEventListener('click', () => {
-    item.classList.toggle('active');
+    const isActive = item.classList.contains('active');
 
-    if (answer.style.display === 'block') {
-      answer.style.display = 'none';
-    } else {
+    // Закрываем все FAQ
+    faqItems.forEach((otherItem) => {
+      otherItem.classList.remove('active');
+
+      const otherAnswer = otherItem.querySelector('.faq-answer');
+      otherAnswer.style.display = 'none';
+    });
+
+    // Если текущий был закрыт — открываем его
+    if (!isActive) {
+      item.classList.add('active');
       answer.style.display = 'block';
     }
   });
