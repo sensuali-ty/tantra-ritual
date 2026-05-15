@@ -185,3 +185,39 @@ toTop.addEventListener('click', () => {
     behavior: 'smooth',
   });
 });
+
+// ===== LANGUAGE OVERLAY =====
+
+const languageOverlay = document.getElementById('languageOverlay');
+const languageButtons = document.querySelectorAll('.language-btn');
+
+if (languageOverlay && languageButtons.length > 0) {
+  const selectedLanguage = localStorage.getItem('selectedLanguage');
+
+  if (selectedLanguage) {
+    languageOverlay.classList.add('hidden');
+  } else {
+    document.body.style.overflow = 'hidden';
+  }
+
+  languageButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+      const lang = button.dataset.lang;
+
+      localStorage.setItem('selectedLanguage', lang);
+
+      languageOverlay.classList.add('hidden');
+
+      document.body.style.overflow = '';
+
+      /*
+        Когда будут отдельные языковые страницы,
+        сюда можно будет добавить переходы:
+      */
+      if (lang === 'ua') window.location.href = 'index_ua.html';
+      if (lang === 'ru') window.location.href = 'index.html';
+      if (lang === 'en') window.location.href = 'index_en.html';
+      if (lang === 'ro') window.location.href = 'index_ro.html';
+    });
+  });
+}

@@ -11,6 +11,43 @@
 </head>
 
 <body>
+	<!-- LANGUAGE OVERLAY -->
+
+	<div class="language-overlay" id="languageOverlay">
+
+		<div class="language-box">
+
+			<div class="language-kicker">
+				private ritual experience
+			</div>
+
+			<h2>
+				Choose your language
+			</h2>
+
+			<div class="language-buttons">
+
+				<button class="language-btn" data-lang="ua">
+					Українська
+				</button>
+
+				<button class="language-btn" data-lang="ru">
+					Русский
+				</button>
+
+				<button class="language-btn" data-lang="en">
+					English
+				</button>
+
+				<button class="language-btn" data-lang="ro">
+					Română
+				</button>
+
+			</div>
+
+		</div>
+
+	</div>
 
 	<!-- HEADER -->
 	<header>
@@ -18,15 +55,17 @@
 		<nav class="burger-menu">
 			<ul>
 				<li class="lang-switch">
+					<a href="index_ua.html">UA</a>
+					<span>|</span>
 					<a href="index.html" class="active">RU</a>
 					<span>|</span>
 					<a href="index_en.html">EN</a>
 					<span>|</span>
-					<a href="index_de.html">DE</a>
+					<a href="index_ro.html">RO</a>
 				</li>
-				<li><a href="ritual.html">Изучить сеансы</a></li>
+				<li><a href="ritual.html">Сеансы</a></li>
 				<li><a href="ritual.html#faq">FAQ </a></li>
-				<li><a href="#telegram">ТГ канал</a></li>
+				<li><a href="#telegram">Телеграм канал</a></li>
 
 			</ul>
 		</nav>
@@ -91,7 +130,7 @@
 			исследование тела, чувств и чувственности — именно это делает наши ритуалы такими цельными, редкими и живыми.
 		</p>
 		<p>На двоих у нас: медицинское образование, опыт работы в оздоровительных СПА, практика в области
-			телесно-ориентированной психологии, китайской/корейской медицине и цифровой психологии.</p>
+			телесно-ориентированной терапии, китайской/корейской медицине и цифровой психологии.</p>
 		<p>За годы вместе мы прошли путь от ревности, страха потерять друг друга, зажатости в разговорах о близости — к
 			осознанному проживанию своей сексуальности. </p>
 		<p>Теперь мы помогаем другим делать то же самое: освободиться от стыда,
@@ -113,7 +152,7 @@
 	</section>
 
 	<!-- БЛОК СЕАНСА -->
-	<section class="sessions" id="sessions">
+	<!-- <section class="sessions" id="sessions">
 
 		<div class="session-block">
 
@@ -126,6 +165,47 @@
 				</p>
 
 				<a href="ritual.html" class="btn-read">Открыть</a>
+
+			</div>
+
+		</div>
+
+	</section> -->
+	<section class="sessions video-sessions" id="sessions">
+
+		<!-- DESKTOP VIDEO -->
+
+		<video class="sessions-video sessions-video-desktop" autoplay muted loop playsinline preload="auto">
+
+			<source src="assets/images/video_1.mp4" type="video/mp4">
+
+		</video>
+
+		<!-- MOBILE VIDEO -->
+
+		<video class="sessions-video sessions-video-mobile" autoplay muted loop playsinline preload="auto">
+
+			<source src="assets/images/video_2.mp4" type="video/mp4">
+
+		</video>
+
+		<div class="sessions-video-overlay"></div>
+
+		<div class="session-block">
+
+			<div class="session-text">
+
+				<h2>
+					Наши сеансы
+				</h2>
+
+				<p>
+					тщательно продуманные медитативно-чувственные путешествия втроём
+				</p>
+
+				<a href="ritual.html" class="btn-read">
+					Открыть
+				</a>
 
 			</div>
 
