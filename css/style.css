@@ -28,6 +28,10 @@ header {
   box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .logo {
   position: absolute;
   left: 50%;
@@ -1295,6 +1299,9 @@ footer a {
   display: block;
 
   box-shadow: 0 34px 80px rgba(49, 28, 18, 0.18);
+
+  filter: brightness(0.88) saturate(0.92) contrast(1.04);
+  transform: scale(1.02);
 }
 
 /* ===== MOBILE HERO ===== */
