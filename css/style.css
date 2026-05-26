@@ -1574,3 +1574,71 @@ footer a {
     display: block;
   }
 }
+
+/* ===== PROGRAM DETAILS ===== */
+
+.program-video-section {
+  min-height: 92vh;
+}
+
+.program-video-content {
+  max-width: 760px;
+
+  padding: clamp(40px, 5vw, 80px);
+
+  border-radius: 32px;
+
+  background: rgba(22, 15, 12, 0.12);
+
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.program-details {
+  padding: 90px 8%;
+
+  background: linear-gradient(180deg, #f6f1ea 0%, #efe7dc 100%);
+}
+
+.program-details-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.program-details-title {
+  text-align: center;
+
+  font-size: 14px;
+
+  letter-spacing: 0.28em;
+
+  text-transform: uppercase;
+
+  color: rgba(40, 28, 20, 0.45);
+
+  margin-bottom: 42px;
+}
+
+.program-details .program-points div {
+  background: rgba(255, 255, 255, 0.55);
+
+  color: rgba(33, 24, 18, 0.86);
+
+  border: 1px solid rgba(70, 42, 28, 0.08);
+
+  box-shadow: 0 18px 45px rgba(49, 28, 18, 0.06);
+}
+
+.program-details .program-points div::before {
+  background: rgba(191, 128, 60, 0.15);
+
+  color: #7a5228;
+}
+
+@media (max-width: 900px) {
+  .program-details {
+    padding: 70px 20px;
+  }
+}
