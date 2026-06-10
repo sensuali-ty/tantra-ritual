@@ -218,6 +218,37 @@ if (languageOverlay && languageButtons.length > 0) {
       if (lang === 'ru') window.location.href = 'index.html';
       if (lang === 'en') window.location.href = 'index_en.html';
       if (lang === 'ro') window.location.href = 'index_ro.html';
+      if (lang === 'es') window.location.href = 'index_es.html';
     });
   });
 }
+
+// ===== ВРЕМЕННО ВЫКЛЮЧИТЬ ЯЗЫКИ =====
+
+const disabledLanguages = ['ro', 'es'];
+
+document
+  .querySelectorAll('a[href*="_ro.html"], a[href*="_es.html"]')
+  .forEach((link) => {
+    link.addEventListener('click', (event) => {
+      event.preventDefault();
+      alert('Эта языковая версия скоро будет доступна');
+    });
+
+    link.style.opacity = '0.35';
+    link.style.pointerEvents = 'auto';
+  });
+
+document.querySelectorAll('.language-btn').forEach((button) => {
+  const lang = button.dataset.lang;
+
+  if (disabledLanguages.includes(lang)) {
+    button.addEventListener('click', (event) => {
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      alert('Эта языковая версия скоро будет доступна');
+    });
+
+    button.style.opacity = '0.35';
+  }
+});
