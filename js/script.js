@@ -246,7 +246,7 @@ document.querySelectorAll('.language-btn').forEach((button) => {
     button.addEventListener('click', (event) => {
       event.preventDefault();
       event.stopImmediatePropagation();
-      alert('Эта языковая версия скоро будет доступна');
+      alert('This language version will be available soon.');
     });
 
     button.style.opacity = '0.35';
