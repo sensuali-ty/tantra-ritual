@@ -232,7 +232,7 @@ document
   .forEach((link) => {
     link.addEventListener('click', (event) => {
       event.preventDefault();
-      alert('Эта языковая версия скоро будет доступна');
+      alert('This language version will be available soon.');
     });
 
     link.style.opacity = '0.35';
