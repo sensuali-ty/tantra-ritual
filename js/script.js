@@ -225,10 +225,12 @@ if (languageOverlay && languageButtons.length > 0) {
 
 // ===== ВРЕМЕННО ВЫКЛЮЧИТЬ ЯЗЫКИ =====
 
-const disabledLanguages = ['ro', 'es'];
+// const disabledLanguages = ['ro', 'es'];
+const disabledLanguages = ['es'];
 
 document
-  .querySelectorAll('a[href*="_ro.html"], a[href*="_es.html"]')
+  .querySelectorAll(' a[href*="_es.html"]')
+  // a[href*="_ro.html"],
   .forEach((link) => {
     link.addEventListener('click', (event) => {
       event.preventDefault();
