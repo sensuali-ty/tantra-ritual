@@ -98,3 +98,82 @@ function openLightbox(index) {
 images.forEach((img, index) => {
   img.addEventListener('click', () => openLightbox(index));
 });
+
+const overlay = document.getElementById('languageOverlay');
+
+if (overlay) {
+  const savedLanguage = localStorage.getItem('selectedLanguage');
+
+  if (savedLanguage) {
+    overlay.style.display = 'none';
+  } else {
+    document.body.style.overflow = 'hidden';
+  }
+
+  document.querySelectorAll('.language-box button').forEach((button) => {
+    button.addEventListener('click', () => {
+      const lang = button.dataset.lang;
+
+      localStorage.setItem('selectedLanguage', lang);
+
+      switch (lang) {
+        case 'ua':
+          window.location.href = 'women_ua.html';
+          break;
+
+        case 'ru':
+          window.location.href = 'women.html';
+          break;
+
+        case 'en':
+          window.location.href = 'women_en.html';
+          break;
+
+        case 'ro':
+          window.location.href = 'women_ro.html';
+          break;
+      }
+    });
+  });
+}
+
+document.querySelectorAll('.language-box button').forEach((button) => {
+  button.addEventListener('click', () => {
+    const lang = button.dataset.lang;
+
+    localStorage.setItem('selectedLanguage', lang);
+
+    switch (lang) {
+      case 'ua':
+        window.location.href = 'women_ua.html';
+        break;
+
+      case 'ru':
+        window.location.href = 'women.html';
+        break;
+
+      case 'en':
+        window.location.href = 'women_en.html';
+        break;
+
+      case 'ro':
+        window.location.href = 'women_ro.html';
+        break;
+    }
+  });
+});
+// ===============================
+// ЗАКРЫТИЕ АККОРДЕОНА ПРИ ОТКРЫТИИ ДРУГОГО
+// ===============================
+
+document.querySelectorAll('.faq-item').forEach((item) => {
+  item.addEventListener('toggle', function () {
+    if (this.open) {
+      document.querySelectorAll('.faq-item').forEach((other) => {
+        if (other !== this) {
+          other.open = false;
+        }
+      });
+    }
+  });
+});
