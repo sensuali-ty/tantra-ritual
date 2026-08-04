@@ -177,3 +177,9 @@ document.querySelectorAll('.faq-item').forEach((item) => {
     }
   });
 });
+
+document.querySelectorAll('.burger-menu a').forEach((link) => {
+  link.addEventListener('click', () => {
+    document.querySelector('.burger-menu')?.classList.remove('open');
+  });
+});
