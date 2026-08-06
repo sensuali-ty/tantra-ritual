@@ -137,31 +137,6 @@ if (overlay) {
   });
 }
 
-document.querySelectorAll('.language-box button').forEach((button) => {
-  button.addEventListener('click', () => {
-    const lang = button.dataset.lang;
-
-    localStorage.setItem('selectedLanguage', lang);
-
-    switch (lang) {
-      case 'ua':
-        window.location.href = 'women_ua.html';
-        break;
-
-      case 'ru':
-        window.location.href = 'women.html';
-        break;
-
-      case 'en':
-        window.location.href = 'women_en.html';
-        break;
-
-      case 'ro':
-        window.location.href = 'women_ro.html';
-        break;
-    }
-  });
-});
 // ===============================
 // ЗАКРЫТИЕ АККОРДЕОНА ПРИ ОТКРЫТИИ ДРУГОГО
 // ===============================
