@@ -1540,6 +1540,8 @@ footer a:hover {
   color: #2c2622 !important;
 
   letter-spacing: -0.02em;
+
+  line-height: 1.05 !important;
 }
 
 /* =========================================================
