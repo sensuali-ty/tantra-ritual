@@ -2057,3 +2057,37 @@ footer a:hover {
     height: auto;
   }
 }
+
+/* ===== Archive promo ===== */
+
+.archive-promo {
+  padding: 90px 20px;
+
+  background: #f8f2eb;
+
+  text-align: center;
+}
+
+.archive-promo-inner {
+  max-width: 720px;
+
+  margin: auto;
+}
+
+.archive-promo h2 {
+  font-size: clamp(34px, 4vw, 56px);
+
+  margin: 18px 0;
+}
+
+.archive-promo p {
+  max-width: 620px;
+
+  margin: 0 auto 34px;
+
+  font-size: 18px;
+
+  line-height: 1.8;
+
+  color: #67584f;
+}
