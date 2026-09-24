@@ -1,0 +1,413 @@
+[33m4929dc1[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m refs/remotes/origin/main@{0}: update by push
+[33m4929dc1[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m refs/heads/main@{0}: commit: перенос коллекции на главную
+[33m4929dc1[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{0}: commit: перенос коллекции на главную
+[33m6d879cf[m refs/remotes/origin/main@{1}: update by push
+[33m6d879cf[m refs/heads/main@{1}: commit: масло
+[33m6d879cf[m HEAD@{1}: commit: масло
+[33mff850f9[m refs/remotes/origin/main@{2}: update by push
+[33mff850f9[m refs/heads/main@{2}: commit: языки архива
+[33mff850f9[m HEAD@{2}: commit: языки архива
+[33mcbfb015[m refs/heads/main@{3}: pull --tags origin main: Fast-forward
+[33mcbfb015[m refs/remotes/origin/main@{3}: pull --tags origin main: fast-forward
+[33mcbfb015[m HEAD@{3}: pull --tags origin main: Fast-forward
+[33m93be04d[m refs/heads/main@{4}: pull --tags origin main: Fast-forward
+[33m93be04d[m refs/remotes/origin/main@{4}: pull --tags origin main: fast-forward
+[33m93be04d[m HEAD@{4}: pull --tags origin main: Fast-forward
+[33me5d40ae[m refs/remotes/origin/main@{5}: update by push
+[33me5d40ae[m refs/heads/main@{5}: commit: корректировка брони
+[33me5d40ae[m HEAD@{5}: commit: корректировка брони
+[33m204940c[m refs/remotes/origin/main@{6}: update by push
+[33m204940c[m refs/heads/main@{6}: commit: бронь
+[33m204940c[m HEAD@{6}: commit: бронь
+[33md67f289[m refs/remotes/origin/main@{7}: update by push
+[33md67f289[m refs/heads/main@{7}: commit: тг название
+[33md67f289[m HEAD@{7}: commit: тг название
+[33m8ceacc8[m refs/remotes/origin/main@{8}: update by push
+[33m8ceacc8[m refs/heads/main@{8}: commit: время
+[33m8ceacc8[m HEAD@{8}: commit: время
+[33m52d5706[m refs/remotes/origin/main@{9}: update by push
+[33m52d5706[m refs/heads/main@{9}: commit: цена на жен сайте
+[33m52d5706[m HEAD@{9}: commit: цена на жен сайте
+[33m6143186[m refs/remotes/origin/main@{10}: update by push
+[33m6143186[m refs/heads/main@{10}: commit: 1500-500
+[33m6143186[m HEAD@{10}: commit: 1500-500
+[33m36a8835[m refs/remotes/origin/main@{11}: update by push
+[33m36a8835[m refs/heads/main@{11}: commit: работа с мужским сайтом и для пары
+[33m36a8835[m HEAD@{11}: commit: работа с мужским сайтом и для пары
+[33m91ed205[m refs/remotes/origin/main@{12}: update by push
+[33m91ed205[m refs/heads/main@{12}: commit: оч много всего с ритуалом для пар, пути, лишние вопросы удал и тд
+[33m91ed205[m HEAD@{12}: commit: оч много всего с ритуалом для пар, пути, лишние вопросы удал и тд
+[33ma1972a1[m refs/remotes/origin/main@{13}: update by push
+[33ma1972a1[m refs/heads/main@{13}: commit: создает стр о парах
+[33ma1972a1[m HEAD@{13}: commit: создает стр о парах
+[33m5f0e372[m refs/remotes/origin/main@{14}: update by push
+[33m5f0e372[m refs/heads/main@{14}: commit: добав вопрос в муж сайт
+[33m5f0e372[m HEAD@{14}: commit: добав вопрос в муж сайт
+[33m53da829[m refs/remotes/origin/main@{15}: update by push
+[33m53da829[m refs/heads/main@{15}: commit: добавляет фавикон туда где его нет
+[33m53da829[m HEAD@{15}: commit: добавляет фавикон туда где его нет
+[33mdd4b4ca[m refs/remotes/origin/main@{16}: update by push
+[33mdd4b4ca[m refs/heads/main@{16}: commit: уточняет вопрос
+[33mdd4b4ca[m HEAD@{16}: commit: уточняет вопрос
+[33mec8b2ea[m refs/remotes/origin/main@{17}: update by push
+[33mec8b2ea[m refs/heads/main@{17}: commit: добавляет видео в муж страницу перед футером в ритуал и в женской верисии удаляет цены из англ и румын
+[33mec8b2ea[m HEAD@{17}: commit: добавляет видео в муж страницу перед футером в ритуал и в женской верисии удаляет цены из англ и румын
+[33m8ea25e7[m refs/remotes/origin/main@{18}: update by push
+[33m8ea25e7[m refs/heads/main@{18}: commit: change names to full names
+[33m8ea25e7[m HEAD@{18}: commit: change names to full names
+[33m567aa3d[m refs/remotes/origin/main@{19}: update by push
+[33m567aa3d[m refs/heads/main@{19}: commit: tantraritualspace
+[33m567aa3d[m HEAD@{19}: commit: tantraritualspace
+[33m7326e9e[m refs/remotes/origin/main@{20}: update by push
+[33m7326e9e[m refs/heads/main@{20}: commit: fix
+[33m7326e9e[m HEAD@{20}: commit: fix
+[33madfffb9[m refs/remotes/origin/main@{21}: update by push
+[33madfffb9[m refs/heads/main@{21}: commit: дополняет hero
+[33madfffb9[m HEAD@{21}: commit: дополняет hero
+[33ma093961[m refs/remotes/origin/main@{22}: update by push
+[33ma093961[m refs/heads/main@{22}: commit: Retry github pages deploy
+[33ma093961[m HEAD@{22}: commit: Retry github pages deploy
+[33m87d0a0c[m refs/remotes/origin/main@{23}: update by push
+[33m87d0a0c[m refs/heads/main@{23}: commit: Remove custom pages workflow
+[33m87d0a0c[m HEAD@{23}: commit: Remove custom pages workflow
+[33m7ad14ef[m refs/remotes/origin/main@{24}: update by push
+[33m7ad14ef[m refs/heads/main@{24}: commit: Add custom GitHub Pages workflow
+[33m7ad14ef[m HEAD@{24}: commit: Add custom GitHub Pages workflow
+[33m43677df[m refs/remotes/origin/main@{25}: update by push
+[33m43677df[m refs/heads/main@{25}: commit: Force GitHub Pages redeploy
+[33m43677df[m HEAD@{25}: commit: Force GitHub Pages redeploy
+[33m9685ac5[m refs/remotes/origin/main@{26}: update by push
+[33m9685ac5[m refs/heads/main@{26}: commit: удаляет повтор джава кода по языкам
+[33m9685ac5[m HEAD@{26}: commit: удаляет повтор джава кода по языкам
+[33m7807cc7[m refs/remotes/origin/main@{27}: update by push
+[33m7807cc7[m refs/heads/main@{27}: commit: англ фиксы
+[33m7807cc7[m HEAD@{27}: commit: англ фиксы
+[33m83e74aa[m refs/remotes/origin/main@{28}: update by push
+[33m83e74aa[m refs/heads/main@{28}: commit: insta
+[33m83e74aa[m HEAD@{28}: commit: insta
+[33m31dcbb9[m refs/remotes/origin/main@{29}: update by push
+[33m31dcbb9[m refs/heads/main@{29}: commit: создает англ и румын версии жен сайта и добавляет вопрос в каждую из них об отсутствии интим близости
+[33m31dcbb9[m HEAD@{29}: commit: создает англ и румын версии жен сайта и добавляет вопрос в каждую из них об отсутствии интим близости
+[33m915f509[m refs/remotes/origin/main@{30}: update by push
+[33m915f509[m refs/heads/main@{30}: commit: исправляет ошибки в укр версии вумен
+[33m915f509[m HEAD@{30}: commit: исправляет ошибки в укр версии вумен
+[33mcc4ebbd[m refs/remotes/origin/main@{31}: update by push
+[33mcc4ebbd[m refs/heads/main@{31}: commit: добавляет укр страницы
+[33mcc4ebbd[m HEAD@{31}: commit: добавляет укр страницы
+[33mcb2155e[m refs/remotes/origin/main@{32}: update by push
+[33mcb2155e[m refs/heads/main@{32}: commit: fix burger
+[33mcb2155e[m HEAD@{32}: commit: fix burger
+[33mffcc78b[m refs/remotes/origin/main@{33}: update by push
+[33mffcc78b[m refs/heads/main@{33}: commit: фиксирует ошибки
+[33mffcc78b[m HEAD@{33}: commit: фиксирует ошибки
+[33mce4c943[m refs/remotes/origin/main@{34}: update by push
+[33mce4c943[m refs/heads/main@{34}: commit: дополняет женский сайт
+[33mce4c943[m HEAD@{34}: commit: дополняет женский сайт
+[33m6aa6971[m refs/remotes/origin/main@{35}: update by push
+[33m6aa6971[m refs/heads/main@{35}: commit: создает сайт для женщин
+[33m6aa6971[m HEAD@{35}: commit: создает сайт для женщин
+[33m2d43d5c[m refs/remotes/origin/main@{36}: update by push
+[33m2d43d5c[m refs/heads/main@{36}: commit: для него
+[33m2d43d5c[m HEAD@{36}: commit: для него
+[33mc34bf25[m refs/remotes/origin/main@{37}: update by push
+[33mc34bf25[m refs/heads/main@{37}: commit: для одного мужчины
+[33mc34bf25[m HEAD@{37}: commit: для одного мужчины
+[33mf009af6[m refs/remotes/origin/main@{38}: update by push
+[33mf009af6[m refs/heads/main@{38}: commit: fic
+[33mf009af6[m HEAD@{38}: commit: fic
+[33m61c7510[m refs/remotes/origin/main@{39}: update by push
+[33m61c7510[m refs/heads/main@{39}: commit: 90 на 100
+[33m61c7510[m HEAD@{39}: commit: 90 на 100
+[33m05040fa[m refs/remotes/origin/main@{40}: update by push
+[33m05040fa[m refs/heads/main@{40}: commit: 5000 на 4500
+[33m05040fa[m HEAD@{40}: commit: 5000 на 4500
+[33ma898449[m refs/remotes/origin/main@{41}: update by push
+[33ma898449[m refs/heads/main@{41}: commit: fix calendar img
+[33ma898449[m HEAD@{41}: commit: fix calendar img
+[33m415c7ac[m refs/remotes/origin/main@{42}: update by push
+[33m415c7ac[m refs/heads/main@{42}: commit: архив -1 коллекция, исправляет вопрос, пути к и от архива
+[33m415c7ac[m HEAD@{42}: commit: архив -1 коллекция, исправляет вопрос, пути к и от архива
+[33m7584414[m refs/remotes/origin/main@{43}: update by push
+[33m7584414[m refs/heads/main@{43}: commit: убирает вопрос о брони
+[33m7584414[m HEAD@{43}: commit: убирает вопрос о брони
+[33mb10c194[m refs/remotes/origin/main@{44}: update by push
+[33mb10c194[m refs/heads/main@{44}: commit: делает бронь за 1 день
+[33mb10c194[m HEAD@{44}: commit: делает бронь за 1 день
+[33m8d7da2f[m refs/remotes/origin/main@{45}: update by push
+[33m8d7da2f[m refs/heads/main@{45}: commit: бронь
+[33m8d7da2f[m HEAD@{45}: commit: бронь
+[33m2836654[m refs/remotes/origin/main@{46}: update by push
+[33m2836654[m refs/heads/main@{46}: commit: ритуал в подарок
+[33m2836654[m HEAD@{46}: commit: ритуал в подарок
+[33m9e73eae[m refs/remotes/origin/main@{47}: update by push
+[33m9e73eae[m refs/heads/main@{47}: commit: fix pictures
+[33m9e73eae[m HEAD@{47}: commit: fix pictures
+[33mb2b8bb3[m refs/remotes/origin/main@{48}: update by push
+[33mb2b8bb3[m refs/heads/main@{48}: commit: fix
+[33mb2b8bb3[m HEAD@{48}: commit: fix
+[33m32c57b3[m refs/remotes/origin/main@{49}: update by push
+[33m32c57b3[m refs/heads/main@{49}: commit: strong
+[33m32c57b3[m HEAD@{49}: commit: strong
+[33mad5f9de[m refs/remotes/origin/main@{50}: update by push
+[33mad5f9de[m refs/heads/main@{50}: commit: просто массаж преобразовывает в полноценный ритуал
+[33mad5f9de[m HEAD@{50}: commit: просто массаж преобразовывает в полноценный ритуал
+[33mc53c59a[m refs/remotes/origin/main@{51}: update by push
+[33mc53c59a[m refs/heads/main@{51}: commit: удал цену
+[33mc53c59a[m HEAD@{51}: commit: удал цену
+[33m058a133[m refs/remotes/origin/main@{52}: update by push
+[33m058a133[m refs/heads/main@{52}: commit: fix
+[33m058a133[m HEAD@{52}: commit: fix
+[33m9e9f625[m refs/remotes/origin/main@{53}: update by push
+[33m9e9f625[m refs/heads/main@{53}: commit: украшение ссылки
+[33m9e9f625[m HEAD@{53}: commit: украшение ссылки
+[33m6f66725[m refs/remotes/origin/main@{54}: update by push
+[33m6f66725[m refs/heads/main@{54}: commit: корректирует время приема
+[33m6f66725[m HEAD@{54}: commit: корректирует время приема
+[33mc9034aa[m refs/remotes/origin/main@{55}: update by push
+[33mc9034aa[m refs/heads/main@{55}: commit: создает 2 коллекции в archive вместо одной
+[33mc9034aa[m HEAD@{55}: commit: создает 2 коллекции в archive вместо одной
+[33m85d992b[m refs/remotes/origin/main@{56}: update by push
+[33m85d992b[m refs/heads/main@{56}: commit: разовый доступ
+[33m85d992b[m HEAD@{56}: commit: разовый доступ
+[33mf67954c[m refs/remotes/origin/main@{57}: update by push
+[33mf67954c[m refs/heads/main@{57}: commit: fix
+[33mf67954c[m HEAD@{57}: commit: fix
+[33m70afb6b[m refs/remotes/origin/main@{58}: update by push
+[33m70afb6b[m refs/heads/main@{58}: commit: удалено часть вопросов о тг канале, удален блок о тг канале, добавлены страницы по приватному хранилищу, активирована румынска версия сайта
+[33m70afb6b[m HEAD@{58}: commit: удалено часть вопросов о тг канале, удален блок о тг канале, добавлены страницы по приватному хранилищу, активирована румынска версия сайта
+[33mcd6aaf4[m refs/remotes/origin/main@{59}: update by push
+[33mcd6aaf4[m refs/heads/main@{59}: commit: burger fix sessions to session
+[33mcd6aaf4[m HEAD@{59}: commit: burger fix sessions to session
+[33m95bff1f[m refs/remotes/origin/main@{60}: update by push
+[33m95bff1f[m refs/heads/main@{60}: commit: tg fix цензура
+[33m95bff1f[m HEAD@{60}: commit: tg fix цензура
+[33m9e2c5d5[m refs/remotes/origin/main@{61}: update by push
+[33m9e2c5d5[m refs/heads/main@{61}: commit: This language version will be available soon.
+[33m9e2c5d5[m HEAD@{61}: commit: This language version will be available soon.
+[33m518d0b6[m refs/remotes/origin/main@{62}: update by push
+[33m518d0b6[m refs/heads/main@{62}: commit: This language version will be available soon.
+[33m518d0b6[m HEAD@{62}: commit: This language version will be available soon.
+[33mad0c9cc[m refs/remotes/origin/main@{63}: update by push
+[33mad0c9cc[m refs/heads/main@{63}: commit: disable 2 languagei in js, 1 tantric program, fix telegram block
+[33mad0c9cc[m HEAD@{63}: commit: disable 2 languagei in js, 1 tantric program, fix telegram block
+[33m37699a9[m refs/remotes/origin/main@{64}: update by push
+[33m37699a9[m refs/heads/main@{64}: commit: delete question
+[33m37699a9[m HEAD@{64}: commit: delete question
+[33m5098472[m refs/remotes/origin/main@{65}: update by push
+[33m5098472[m refs/heads/main@{65}: commit: delete 1 program in ru, ua
+[33m5098472[m HEAD@{65}: commit: delete 1 program in ru, ua
+[33m67ce8c5[m refs/remotes/origin/main@{66}: update by push
+[33m67ce8c5[m refs/heads/main@{66}: commit: fix outcall
+[33m67ce8c5[m HEAD@{66}: commit: fix outcall
+[33m623b871[m refs/remotes/origin/main@{67}: update by push
+[33m623b871[m refs/heads/main@{67}: commit: change time, program names and description. Add videos to programs. deleted and fixed questions
+[33m623b871[m HEAD@{67}: commit: change time, program names and description. Add videos to programs. deleted and fixed questions
+[33m58a1469[m refs/remotes/origin/main@{68}: update by push
+[33m58a1469[m refs/heads/main@{68}: commit: final fix
+[33m58a1469[m HEAD@{68}: commit: final fix
+[33m70526f4[m refs/remotes/origin/main@{69}: update by push
+[33m70526f4[m refs/heads/main@{69}: commit: fix
+[33m70526f4[m HEAD@{69}: commit: fix
+[33m90202cf[m refs/remotes/origin/main@{70}: update by push
+[33m90202cf[m refs/heads/main@{70}: commit: Change anker #sessions
+[33m90202cf[m HEAD@{70}: commit: Change anker #sessions
+[33md8b4443[m refs/remotes/origin/main@{71}: update by push
+[33md8b4443[m refs/heads/main@{71}: commit: delete cu ni
+[33md8b4443[m HEAD@{71}: commit: delete cu ni
+[33m49c5b22[m refs/remotes/origin/main@{72}: update by push
+[33m49c5b22[m refs/heads/main@{72}: commit: add telegram link to burger ritual page
+[33m49c5b22[m HEAD@{72}: commit: add telegram link to burger ritual page
+[33m381807c[m refs/remotes/origin/main@{73}: update by push
+[33m381807c[m refs/heads/main@{73}: commit: change telegram block, fix mistakes in words
+[33m381807c[m HEAD@{73}: commit: change telegram block, fix mistakes in words
+[33mb186071[m refs/remotes/origin/main@{74}: update by push
+[33mb186071[m refs/heads/main@{74}: commit: add spanish pages
+[33mb186071[m HEAD@{74}: commit: add spanish pages
+[33m2e7c3bc[m refs/remotes/origin/main@{75}: update by push
+[33m2e7c3bc[m refs/heads/main@{75}: commit: deep work on the whole site
+[33m2e7c3bc[m HEAD@{75}: commit: deep work on the whole site
+[33m9a093ea[m refs/remotes/origin/main@{76}: update by push
+[33m9a093ea[m refs/heads/main@{76}: commit: fix
+[33m9a093ea[m HEAD@{76}: commit: fix
+[33m348a814[m refs/remotes/origin/main@{77}: update by push
+[33m348a814[m refs/heads/main@{77}: commit: hero block test version
+[33m348a814[m HEAD@{77}: commit: hero block test version
+[33mfc729ab[m refs/remotes/origin/main@{78}: update by push
+[33mfc729ab[m refs/heads/main@{78}: commit: fix problems
+[33mfc729ab[m HEAD@{78}: commit: fix problems
+[33m8ee13d2[m refs/remotes/origin/main@{79}: update by push
+[33m8ee13d2[m refs/heads/main@{79}: commit: TYPOGRAPHY + SPACING FOUNDATION
+[33m8ee13d2[m HEAD@{79}: commit: TYPOGRAPHY + SPACING FOUNDATION
+[33m7fbdec1[m refs/remotes/origin/main@{80}: update by push
+[33m7fbdec1[m refs/heads/main@{80}: commit: fix ritual-info-card h2
+[33m7fbdec1[m HEAD@{80}: commit: fix ritual-info-card h2
+[33m2e54a12[m refs/remotes/origin/main@{81}: update by push
+[33m2e54a12[m refs/heads/main@{81}: commit: change js on faq
+[33m2e54a12[m HEAD@{81}: commit: change js on faq
+[33mafe5bcb[m refs/remotes/origin/main@{82}: update by push
+[33mafe5bcb[m refs/heads/main@{82}: commit: change questions
+[33mafe5bcb[m HEAD@{82}: commit: change questions
+[33ma0f85f1[m refs/remotes/origin/main@{83}: update by push
+[33ma0f85f1[m refs/heads/main@{83}: commit: change description, fix size of pic on ritual
+[33ma0f85f1[m HEAD@{83}: commit: change description, fix size of pic on ritual
+[33m8d3bb77[m refs/remotes/origin/main@{84}: update by push
+[33m8d3bb77[m refs/heads/main@{84}: commit: fix
+[33m8d3bb77[m HEAD@{84}: commit: fix
+[33m234bf5f[m refs/remotes/origin/main@{85}: update by push
+[33m234bf5f[m refs/heads/main@{85}: commit: del gg from footer
+[33m234bf5f[m HEAD@{85}: commit: del gg from footer
+[33m055facf[m refs/remotes/origin/main@{86}: update by push
+[33m055facf[m refs/heads/main@{86}: commit: fix description
+[33m055facf[m HEAD@{86}: commit: fix description
+[33m4b129be[m refs/remotes/origin/main@{87}: update by push
+[33m4b129be[m refs/heads/main@{87}: commit: make shorter text in ritual info card
+[33m4b129be[m HEAD@{87}: commit: make shorter text in ritual info card
+[33mf4c2e46[m refs/remotes/origin/main@{88}: update by push
+[33mf4c2e46[m refs/heads/main@{88}: commit: change programs and optimise russion version
+[33mf4c2e46[m HEAD@{88}: commit: change programs and optimise russion version
+[33m1272eca[m refs/remotes/origin/main@{89}: update by push
+[33m1272eca[m refs/heads/main@{89}: commit: fix time
+[33m1272eca[m HEAD@{89}: commit: fix time
+[33m6511adb[m refs/remotes/origin/main@{90}: update by push
+[33m6511adb[m refs/heads/main@{90}: commit: change size of pix id en and de
+[33m6511adb[m HEAD@{90}: commit: change size of pix id en and de
+[33md842ddf[m refs/remotes/origin/main@{91}: update by push
+[33md842ddf[m refs/heads/main@{91}: commit: change size of imager ru
+[33md842ddf[m HEAD@{91}: commit: change size of imager ru
+[33mf2b942b[m refs/remotes/origin/main@{92}: update by push
+[33mf2b942b[m refs/heads/main@{92}: commit: add br
+[33mf2b942b[m HEAD@{92}: commit: add br
+[33mc2fb6dc[m refs/remotes/origin/main@{93}: update by push
+[33mc2fb6dc[m refs/heads/main@{93}: commit: fix description
+[33mc2fb6dc[m HEAD@{93}: commit: fix description
+[33mc26aa7f[m refs/remotes/origin/main@{94}: update by push
+[33mc26aa7f[m refs/heads/main@{94}: commit: fix description
+[33mc26aa7f[m HEAD@{94}: commit: fix description
+[33me20eab1[m refs/remotes/origin/main@{95}: update by push
+[33me20eab1[m refs/heads/main@{95}: commit: delete 1 hour from russien web
+[33me20eab1[m HEAD@{95}: commit: delete 1 hour from russien web
+[33m3a0a566[m refs/remotes/origin/main@{96}: update by push
+[33m3a0a566[m refs/heads/main@{96}: commit: fix mutual touches
+[33m3a0a566[m HEAD@{96}: commit: fix mutual touches
+[33m37aa0b3[m refs/remotes/origin/main@{97}: update by push
+[33m37aa0b3[m refs/heads/main@{97}: commit: add position on the side
+[33m37aa0b3[m HEAD@{97}: commit: add position on the side
+[33m6dd574e[m refs/remotes/origin/main@{98}: update by push
+[33m6dd574e[m refs/heads/main@{98}: commit: change tantra water ritual
+[33m6dd574e[m HEAD@{98}: commit: change tantra water ritual
+[33m65ccc18[m refs/remotes/origin/main@{99}: update by push
+[33m65ccc18[m refs/heads/main@{99}: commit: fix water ritual h2
+[33m65ccc18[m HEAD@{99}: commit: fix water ritual h2
+[33m1225bc7[m refs/remotes/origin/main@{100}: update by push
+[33m1225bc7[m refs/heads/main@{100}: commit: add 3 programs
+[33m1225bc7[m HEAD@{100}: commit: add 3 programs
+[33mb2df1a9[m refs/remotes/origin/main@{101}: update by push
+[33mb2df1a9[m refs/heads/main@{101}: commit: add main page link to rituals burger menue
+[33mb2df1a9[m HEAD@{101}: commit: add main page link to rituals burger menue
+[33m5b5e077[m refs/remotes/origin/main@{102}: update by push
+[33m5b5e077[m refs/heads/main@{102}: commit: session to sessions
+[33m5b5e077[m HEAD@{102}: commit: session to sessions
+[33m2b67ce2[m refs/remotes/origin/main@{103}: update by push
+[33m2b67ce2[m refs/heads/main@{103}: commit: fix path to main page
+[33m2b67ce2[m HEAD@{103}: commit: fix path to main page
+[33m5fb8e43[m refs/remotes/origin/main@{104}: update by push
+[33m5fb8e43[m refs/heads/main@{104}: commit: delete ritual-info-card with effects
+[33m5fb8e43[m HEAD@{104}: commit: delete ritual-info-card with effects
+[33me60470a[m refs/remotes/origin/main@{105}: update by push
+[33me60470a[m refs/heads/main@{105}: commit: add tantra water ritual and the description, change 4hands massage
+[33me60470a[m HEAD@{105}: commit: add tantra water ritual and the description, change 4hands massage
+[33m9e97d6c[m refs/remotes/origin/main@{106}: update by push
+[33m9e97d6c[m refs/heads/main@{106}: commit: change telegram path
+[33m9e97d6c[m HEAD@{106}: commit: change telegram path
+[33m22cc474[m refs/remotes/origin/main@{107}: update by push
+[33m22cc474[m refs/heads/main@{107}: commit: insta link
+[33m22cc474[m HEAD@{107}: commit: insta link
+[33m1a3eda4[m refs/remotes/origin/main@{108}: update by push
+[33m1a3eda4[m refs/heads/main@{108}: commit: add body to body
+[33m1a3eda4[m HEAD@{108}: commit: add body to body
+[33m5c414bb[m refs/remotes/origin/main@{109}: update by push
+[33m5c414bb[m refs/heads/main@{109}: commit: change word filters to censore, dekete wrong paths from the menu in rituals page main menu - faq etc
+[33m5c414bb[m HEAD@{109}: commit: change word filters to censore, dekete wrong paths from the menu in rituals page main menu - faq etc
+[33mfd8241d[m refs/remotes/origin/main@{110}: update by push
+[33mfd8241d[m refs/heads/main@{110}: commit: add more description to the ritual
+[33mfd8241d[m HEAD@{110}: commit: add more description to the ritual
+[33m3d5c3b3[m refs/remotes/origin/main@{111}: update by push
+[33m3d5c3b3[m refs/heads/main@{111}: commit: telegram to tg
+[33m3d5c3b3[m HEAD@{111}: commit: telegram to tg
+[33mdf258ae[m refs/remotes/origin/main@{112}: update by push
+[33mdf258ae[m refs/heads/main@{112}: commit: add alert to telegram block and telegram code to footer
+[33mdf258ae[m HEAD@{112}: commit: add alert to telegram block and telegram code to footer
+[33m01148f6[m refs/remotes/origin/main@{113}: update by push
+[33m01148f6[m refs/heads/main@{113}: commit: add telegram block
+[33m01148f6[m HEAD@{113}: commit: add telegram block
+[33m58d4e87[m refs/remotes/origin/main@{114}: update by push
+[33m58d4e87[m refs/heads/main@{114}: commit: delete city center again
+[33m58d4e87[m HEAD@{114}: commit: delete city center again
+[33m137558b[m refs/remotes/origin/main@{115}: update by push
+[33m137558b[m refs/heads/main@{115}: commit: delete city center
+[33m137558b[m HEAD@{115}: commit: delete city center
+[33m061b031[m refs/remotes/origin/main@{116}: update by push
+[33m061b031[m refs/heads/main@{116}: commit: strong to price
+[33m061b031[m HEAD@{116}: commit: strong to price
+[33mf6a2e8e[m refs/remotes/origin/main@{117}: update by push
+[33mf6a2e8e[m refs/heads/main@{117}: commit: delete prices
+[33mf6a2e8e[m HEAD@{117}: commit: delete prices
+[33m7765939[m refs/remotes/origin/main@{118}: update by push
+[33m7765939[m refs/heads/main@{118}: commit: change the button session
+[33m7765939[m HEAD@{118}: commit: change the button session
+[33me1665f1[m refs/remotes/origin/main@{119}: update by push
+[33me1665f1[m refs/heads/main@{119}: commit: change session button and text
+[33me1665f1[m HEAD@{119}: commit: change session button and text
+[33m8461601[m refs/remotes/origin/main@{120}: update by push
+[33m8461601[m refs/heads/main@{120}: commit: fix session h2
+[33m8461601[m HEAD@{120}: commit: fix session h2
+[33m0473eff[m refs/remotes/origin/main@{121}: update by push
+[33m0473eff[m refs/heads/main@{121}: commit: fix session-text in de
+[33m0473eff[m HEAD@{121}: commit: fix session-text in de
+[33m19e0284[m refs/remotes/origin/main@{122}: update by push
+[33m19e0284[m refs/heads/main@{122}: commit: add en, de index and ritual html
+[33m19e0284[m HEAD@{122}: commit: add en, de index and ritual html
+[33ma5143d7[m refs/remotes/origin/main@{123}: update by push
+[33ma5143d7[m refs/heads/main@{123}: commit: change font size about
+[33ma5143d7[m HEAD@{123}: commit: change font size about
+[33m14eec80[m refs/remotes/origin/main@{124}: update by push
+[33m14eec80[m refs/heads/main@{124}: commit: fix favicon
+[33m14eec80[m HEAD@{124}: commit: fix favicon
+[33me55af17[m refs/remotes/origin/main@{125}: update by push
+[33me55af17[m refs/heads/main@{125}: commit: add apple favicon
+[33me55af17[m HEAD@{125}: commit: add apple favicon
+[33m2bd92f6[m refs/remotes/origin/main@{126}: update by push
+[33m2bd92f6[m refs/heads/main@{126}: commit: add favicon
+[33m2bd92f6[m HEAD@{126}: commit: add favicon
+[33m99d4815[m refs/remotes/origin/main@{127}: update by push
+[33m99d4815[m refs/heads/main@{127}: commit: add favicon
+[33m99d4815[m HEAD@{127}: commit: add favicon
+[33m5ac3f35[m refs/remotes/origin/main@{128}: update by push
+[33m5ac3f35[m refs/heads/main@{128}: commit: delete 3 pics
+[33m5ac3f35[m HEAD@{128}: commit: delete 3 pics
+[33me793ae0[m refs/remotes/origin/main@{129}: update by push
+[33me793ae0[m refs/heads/main@{129}: commit: Fix
+[33me793ae0[m HEAD@{129}: commit: Fix
+[33mb73dd55[m refs/remotes/origin/main@{130}: update by push
+[33mb73dd55[m refs/heads/main@{130}: commit: Fix burger
+[33mb73dd55[m HEAD@{130}: commit: Fix burger
+[33m82bfc3d[m refs/remotes/origin/main@{131}: update by push
+[33m82bfc3d[m refs/heads/main@{131}: commit: update index
+[33m82bfc3d[m HEAD@{131}: commit: update index
+[33ma62772e[m refs/remotes/origin/main@{132}: update by push
+[33ma62772e[m refs/heads/main@{132}: commit: update index
+[33ma62772e[m HEAD@{132}: commit: update index
+[33me0180eb[m refs/remotes/origin/main@{133}: update by push
+[33me0180eb[m refs/heads/main@{133}: commit: Move site files to root for Github Pages
+[33me0180eb[m HEAD@{133}: commit: Move site files to root for Github Pages
+[33mebe802f[m refs/remotes/origin/main@{134}: update by push
+[33mebe802f[m refs/heads/main@{134}: commit: ...
+[33mebe802f[m HEAD@{134}: commit: ...
+[33m9c0596f[m refs/remotes/origin/main@{135}: update by push
+[33m9c0596f[m refs/heads/main@{135}: pull origin main --allow-unrelated-histories: Merge made by the 'ort' strategy.
+[33mc8417e5[m refs/remotes/origin/main@{136}: pull origin main --allow-unrelated-histories: storing head
+[33m9c0596f[m HEAD@{135}: pull origin main --allow-unrelated-histories: Merge made by the 'ort' strategy.
+[33mbcde389[m refs/heads/main@{136}: Branch: renamed refs/heads/master to refs/heads/main
+[33mbcde389[m HEAD@{136}: Branch: renamed refs/heads/master to refs/heads/main
+[33mbcde389[m refs/heads/main@{137}: commit (initial): Initial commit — структура проекта
+[33mbcde389[m HEAD@{138}: commit (initial): Initial commit — структура проекта
