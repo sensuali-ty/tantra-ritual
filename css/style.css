@@ -1284,22 +1284,88 @@ footer a {
   color: #2f211b;
 }
 
+.hero-editorial-right {
+  position: relative;
+}
+
 .hero-editorial-right img {
   width: 100%;
 
-  height: min(82vh, 880px);
+  aspect-ratio: 4 / 5;
+  height: auto;
 
   object-fit: cover;
   object-position: center;
 
-  border-radius: 32px;
+  border-radius: 34px;
 
   display: block;
 
-  box-shadow: 0 34px 80px rgba(49, 28, 18, 0.18);
+  box-shadow: 0 35px 80px rgba(0, 0, 0, 0.12);
 
   filter: brightness(0.88) saturate(0.92) contrast(1.04);
-  transform: scale(1.02);
+}
+
+.hero-editorial-right::before {
+  content: '';
+
+  position: absolute;
+
+  inset: 18px;
+
+  border-radius: 34px;
+
+  border: 1px solid rgba(255, 255, 255, 0.45);
+
+  pointer-events: none;
+
+  z-index: 2;
+}
+
+/* ===== MALE VISUAL STORY ===== */
+
+.male-visual-story {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 110px 5vw 130px;
+
+  display: grid;
+  grid-template-columns: 1fr 0.16fr 1fr;
+  align-items: center;
+}
+
+.male-story-item {
+  position: relative;
+}
+
+.male-story-photo {
+  position: relative;
+}
+
+.male-story-photo img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  height: auto;
+
+  object-fit: cover;
+  display: block;
+
+  border-radius: 30px;
+
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.10);
+}
+
+.male-story-photo::after {
+  content: '';
+
+  position: absolute;
+  inset: 16px;
+
+  border-radius: 30px;
+
+  border: 1px solid rgba(255, 255, 255, 0.45);
+
+  pointer-events: none;
 }
 
 /* ===== MOBILE HERO ===== */
@@ -1353,11 +1419,36 @@ footer a {
   }
 
   .hero-editorial-right img {
-    height: 58vh;
+    aspect-ratio: 3 / 4;
+    height: auto;
 
-    min-height: 380px;
-    max-height: 560px;
+    min-height: 0;
+    max-height: none;
 
+    border-radius: 26px;
+  }
+
+  .hero-editorial-right::before {
+    inset: 14px;
+    border-radius: 26px;
+  }
+
+  .male-visual-story {
+    grid-template-columns: 1fr;
+    gap: 55px;
+    padding: 70px 22px 90px;
+  }
+
+  .male-story-spacer {
+    display: none;
+  }
+
+  .male-story-photo img {
+    border-radius: 26px;
+  }
+
+  .male-story-photo::after {
+    inset: 14px;
     border-radius: 26px;
   }
 }
