@@ -2019,3 +2019,114 @@ footer a {
     font-weight: 600;
   }
 }
+
+
+/* ===== MOBILE HARDENING ===== */
+
+@media (max-width: 900px) {
+  html,
+  body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  header {
+    height: 70px;
+  }
+
+  .logo {
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+
+  nav {
+    right: 18px;
+  }
+
+  .burger {
+    right: 18px;
+  }
+
+  section {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .about {
+    padding: 70px 20px;
+  }
+
+  .about p {
+    width: 100%;
+    max-width: 850px;
+    box-sizing: border-box;
+    font-size: 17px;
+    line-height: 1.7;
+  }
+
+  .sessions {
+    padding: 90px 20px;
+  }
+
+  .session-block {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    gap: 30px;
+  }
+
+  .session-text {
+    width: 100%;
+    max-width: 720px;
+    box-sizing: border-box;
+  }
+
+  .session-text h2 {
+    font-size: clamp(34px, 9vw, 46px);
+  }
+
+  .session-text p {
+    font-size: 18px;
+    line-height: 1.65;
+  }
+
+  .archive-promo {
+    padding: 75px 20px;
+  }
+
+  footer {
+    padding: 40px 20px;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    font-size: 18px;
+  }
+
+  .hero-editorial {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .hero-editorial h1 {
+    font-size: clamp(46px, 14vw, 62px);
+  }
+
+  .male-visual-story {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .archive-promo {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .session-text {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
