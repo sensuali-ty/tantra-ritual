@@ -1303,7 +1303,6 @@ footer a {
 
   box-shadow: 0 35px 80px rgba(0, 0, 0, 0.12);
 
-  filter: brightness(0.88) saturate(0.92) contrast(1.04);
 }
 
 .hero-editorial-right::before {
