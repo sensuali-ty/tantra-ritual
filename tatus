@@ -1,0 +1,13 @@
+* [33ma740b3a[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m убирает кнопку сеанс
+* [33m596f333[m цены в леях и 1 фото
+[31m|[m * [33m2959147[m[33m ([m[1;31morigin/main[m[33m)[m Remove displayed price from English page
+[31m|[m * [33md71af5f[m Restore Romanian price by private message
+[31m|[m * [33m991a107[m Restore hidden Russian session price
+[31m|[m[31m/[m  
+* [33m5a958bc[m Hide session price on English page
+* [33mf6240c9[m Show session price in euros on English page
+* [33m9aa3014[m Show updated session price in Romanian
+* [33m524690a[m Show updated session price in Russian
+* [33mccc97d8[m Hide displayed 8500 UAH price on Woman Ritual
+* [33mc86efc1[m Hide displayed 8500 UAH price on Woman Ritual
+* [33m047bffe[m Update Woman Ritual clothing options
