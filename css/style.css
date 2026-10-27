@@ -2129,3 +2129,78 @@ footer a {
     margin-right: 0 !important;
   }
 }
+
+
+/* =========================================================
+   BALANCE STORY — shared section adapted to the men's site
+========================================================= */
+.balance-story {
+  background: #f6f3ee;
+  color: #2d2926;
+  padding: 0 0 clamp(70px, 9vw, 130px);
+}
+.balance-story-image {
+  min-height: min(100vh, 820px);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: url('../assets/images/ice_fire_hands.jpg') center center / cover no-repeat;
+}
+.balance-story-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, .55);
+}
+.balance-story-heading {
+  position: relative;
+  z-index: 1;
+  width: min(820px, 90vw);
+  padding: clamp(36px, 7vw, 88px) 24px;
+  text-align: center;
+}
+.balance-story-kicker {
+  color: #d4b58a;
+  font-size: 12px;
+  letter-spacing: .28em;
+  text-transform: uppercase;
+  margin-bottom: 26px;
+}
+.balance-story-heading blockquote {
+  color: #fff;
+  font-size: clamp(30px, 4vw, 48px);
+  font-weight: 300;
+  line-height: 1.35;
+  margin: 0 0 28px;
+}
+.balance-story-heading p {
+  color: rgba(255,255,255,.88);
+  font-size: clamp(16px, 2vw, 21px);
+  line-height: 1.7;
+}
+.balance-story-text {
+  width: min(820px, 88vw);
+  margin: 0 auto;
+  padding: clamp(48px, 7vw, 88px) 0 0;
+}
+.balance-story-text p {
+  color: inherit;
+  font-size: clamp(17px, 1.5vw, 20px);
+  line-height: 1.85;
+  margin: 0 0 24px;
+}
+.balance-story-text .balance-story-final {
+  margin-top: clamp(42px, 6vw, 72px);
+  margin-bottom: 0;
+  font-size: clamp(28px, 3vw, 38px);
+  line-height: 1.3;
+  font-weight: 300;
+  letter-spacing: -.025em;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .balance-story-image { min-height: 76vh; }
+  .balance-story-text { width: 88vw; }
+  .balance-story-text p { line-height: 1.75; margin-bottom: 20px; }
+}
