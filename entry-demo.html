@@ -12,7 +12,7 @@
 .app:after{width:48vw;height:48vw;min-width:320px;min-height:320px;right:-20vw;bottom:-24vw;background:radial-gradient(circle,rgba(255,0,153,.22),transparent 70%)}
 .topbar{height:82px;display:flex;align-items:center;justify-content:space-between;padding:0 clamp(22px,5vw,76px);position:relative;z-index:2}
 .brand{display:flex;align-items:center;gap:12px;font-size:13px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#fff}
-.brand-mark{width:34px;height:34px;border-radius:12px;display:grid;place-items:center;background:linear-gradient(140deg,#00d9ff,#ff36b7);box-shadow:0 5px 24px #ff36b74a;font-size:17px;color:#100d1b}
+.brand-mark{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;overflow:hidden;background:#211a32;box-shadow:0 5px 24px #ff36b74a}.brand-mark img{width:100%;height:100%;object-fit:contain;display:block}
 .top-note{display:none}
 .intro{display:none}
 .eyebrow{display:inline-flex;align-items:center;gap:9px;border:1px solid #594b8224;border-radius:999px;background:#ffffff8c;padding:9px 14px;color:#6b6383;font-size:10px;font-weight:750;letter-spacing:.19em;text-transform:uppercase;backdrop-filter:blur(12px)}
@@ -28,7 +28,7 @@ h1 span{background:linear-gradient(100deg,#48b8ee 8%,#9e7df3 49%,#f16cb7 92%);-w
 .orb{position:absolute;z-index:-1;pointer-events:none;border-radius:50%;opacity:.48;border:1px solid #ffffffbf}.orb-one{width:250px;height:250px;right:-66px;top:95px}.orb-two{width:190px;height:190px;right:-35px;top:125px;background:#ffffff29}.orb-three{width:125px;height:125px;right:-4px;top:158px;background:#ffffff2e}
 .choice-top{width:100%;display:flex;justify-content:space-between;align-items:center}.choice-index{display:none}
 .symbol{width:82px;height:82px;border-radius:50%;border:1.5px solid #ffffffed;background:#ffffff72;display:grid;place-items:center;box-shadow:0 8px 30px #10101f25,inset 0 1px 1px #ffffffcc;backdrop-filter:blur(8px)}
-.symbol svg{width:49px;height:49px;overflow:visible}.choice-main{margin-top:auto;padding-top:10px}.choice h2{font-size:clamp(54px,8vw,84px);line-height:.9;letter-spacing:-.08em;margin:0;font-weight:800}
+.symbol svg{width:49px;height:49px;overflow:visible}.choice-main{margin-top:auto;padding-top:10px}.choice h2{font-size:clamp(74px,10vw,112px);line-height:.9;letter-spacing:-.08em;margin:0;font-weight:800}
 .choice-copy{display:none}
 .choice-bottom{display:none}
 .arrow-circle{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:#ffffff85;font-size:18px;transition:transform .25s ease}.choice:hover .arrow-circle{transform:translateX(4px)}
@@ -41,17 +41,17 @@ h1 span{background:linear-gradient(100deg,#48b8ee 8%,#9e7df3 49%,#f16cb7 92%);-w
 .back{border:0;background:transparent;color:#bcb2d2;cursor:pointer;margin-top:28px;padding:12px 16px;font-size:12px;font-weight:750;letter-spacing:.1em;text-transform:uppercase}.demo-note{display:none}
 @keyframes reveal{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
 @media(min-width:1100px) and (min-height:850px){.intro{padding-top:42px;padding-bottom:38px}.choice{min-height:490px}}
-@media(max-width:680px){.topbar{height:70px;padding:0 20px}.brand{font-size:11px;letter-spacing:.13em;gap:9px}.brand-mark{width:30px;height:30px;border-radius:10px}.choice-grid{width:calc(100% - 28px);gap:14px;margin:clamp(24px,7vh,60px) auto 24px}.choice{min-height:clamp(180px,25vh,230px);border-radius:24px;padding:24px}.symbol{width:58px;height:58px}.symbol svg{width:36px;height:36px}.choice h2{font-size:58px}.choice-main{padding-top:10px}.orb-one{width:190px;height:190px;right:-44px;top:40px}.orb-two{width:145px;height:145px;right:-20px;top:60px}.orb-three{width:100px;height:100px;right:2px;top:82px}.language-screen{min-height:calc(100vh - 70px);padding:34px 18px 48px}.language-grid{grid-template-columns:1fr;gap:9px}.language-option{padding:17px 18px;border-radius:16px}}
+@media(max-width:680px){.topbar{height:70px;padding:0 20px}.brand{font-size:11px;letter-spacing:.13em;gap:9px}.brand-mark{width:30px;height:30px;border-radius:10px}.choice-grid{width:calc(100% - 28px);gap:14px;margin:clamp(24px,7vh,60px) auto 24px}.choice{min-height:clamp(180px,25vh,230px);border-radius:24px;padding:24px}.symbol{width:58px;height:58px}.symbol svg{width:36px;height:36px}.choice h2{font-size:76px}.choice-main{padding-top:10px}.orb-one{width:190px;height:190px;right:-44px;top:40px}.orb-two{width:145px;height:145px;right:-20px;top:60px}.orb-three{width:100px;height:100px;right:2px;top:82px}.language-screen{min-height:calc(100vh - 70px);padding:34px 18px 48px}.language-grid{grid-template-columns:1fr;gap:9px}.language-option{padding:17px 18px;border-radius:16px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{transition-duration:.01ms!important;animation-duration:.01ms!important}}
 </style>
 </head>
 <body>
 <main class="app" id="app">
-<header class="topbar"><div class="brand"><span class="brand-mark">✦</span><span>Tantra Ritual</span></div></header>
+<header class="topbar"><div class="brand"><span class="brand-mark"><img src="favicon.png" alt=""></span><span>Tantra Ritual</span></div></header>
 <section class="home-screen" id="homeScreen">
 <div class="choice-grid">
-<button class="choice choice-man" type="button" data-choice="man" aria-label="Он"><span class="orb orb-one"></span><span class="orb orb-two"></span><span class="orb orb-three"></span><span class="choice-top"><span class="symbol" aria-hidden="true"><svg viewBox="0 0 52 52" fill="none"><circle cx="23" cy="29" r="15" stroke="#171329" stroke-width="2.7"/><path d="M34 18L44 8M34 8H44V18" stroke="#171329" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"/></svg></span></span><span class="choice-main"><h2>He</h2></span></button>
-<button class="choice choice-woman" type="button" data-choice="woman" aria-label="Она"><span class="orb orb-one"></span><span class="orb orb-two"></span><span class="orb orb-three"></span><span class="choice-top"><span class="symbol" aria-hidden="true"><svg viewBox="0 0 52 52" fill="none"><circle cx="26" cy="22" r="15" stroke="#171329" stroke-width="2.7"/><path d="M26 37V48M21 43L26 48L31 43" stroke="#171329" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"/></svg></span></span><span class="choice-main"><h2>She</h2></span></button>
+<button class="choice choice-man" type="button" data-choice="man" aria-label="Он"><span class="orb orb-one"></span><span class="orb orb-two"></span><span class="orb orb-three"></span><span class="choice-top"><span class="symbol" aria-hidden="true"><svg viewBox="0 0 52 52" fill="none"><circle cx="23" cy="29" r="15" stroke="#171329" stroke-width="2.7"/><path d="M34 18L44 8M34 8H44V18" stroke="#171329" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"/></svg></span></span><span class="choice-main"><h2 aria-label="Male">♂</h2></span></button>
+<button class="choice choice-woman" type="button" data-choice="woman" aria-label="Она"><span class="orb orb-one"></span><span class="orb orb-two"></span><span class="orb orb-three"></span><span class="choice-top"><span class="symbol" aria-hidden="true"><svg viewBox="0 0 52 52" fill="none"><circle cx="26" cy="22" r="15" stroke="#171329" stroke-width="2.7"/><path d="M26 37V48M21 43L26 48L31 43" stroke="#171329" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"/></svg></span></span><span class="choice-main"><h2 aria-label="Female">♀</h2></span></button>
 </section>
 <section class="language-screen" id="languageScreen" aria-live="polite"><h2 class="language-title">Язык</h2><div class="language-grid">
 <button class="language-option" type="button" data-language="Українська"><span><strong>Українська</strong></span><span class="go">↗</span></button>
