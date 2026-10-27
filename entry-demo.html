@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="ru">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f8f5ff">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#050510">
 <title>Tantra Ritual — Entry Concept</title>
 <style>
 :root{--ink:#171329;--muted:#625b79;--site-primary:#77DCFF;--site-secondary:#FF9BD2;--site-background:#F8F5FF;--site-on-primary:#171329;--site-on-secondary:#171329;--site-on-background:#171329;--site-font-body:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;--site-font-heading:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;--site-heading-scale:1;--site-spacing-scale:1;--site-radius-scale:1;--site-decoration-opacity:1;color-scheme:dark}
@@ -10,9 +10,9 @@
 .app:before,.app:after{content:"";position:absolute;z-index:-1;pointer-events:none;opacity:var(--site-decoration-opacity);filter:blur(2px)}
 .app:before{width:42vw;height:42vw;min-width:300px;min-height:300px;left:-18vw;top:-20vw;background:radial-gradient(circle,rgba(0,190,255,.24),transparent 68%)}
 .app:after{width:48vw;height:48vw;min-width:320px;min-height:320px;right:-20vw;bottom:-24vw;background:radial-gradient(circle,rgba(255,0,153,.22),transparent 70%)}
-.topbar{height:82px;display:flex;align-items:center;justify-content:space-between;padding:0 clamp(22px,5vw,76px);position:relative;z-index:2}
-.brand{display:flex;align-items:center;gap:12px;font-size:13px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#fff}
-.brand-mark{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;overflow:hidden;background:#211a32;box-shadow:0 5px 24px #ff36b74a}.brand-mark img{width:100%;height:100%;object-fit:contain;display:block}
+.topbar{height:104px;display:flex;align-items:center;justify-content:center;padding:0 22px;position:relative;z-index:2}
+.brand{display:flex;align-items:center;gap:12px;font-size:15px;font-weight:650;letter-spacing:.25em;text-transform:uppercase;color:#fff;text-shadow:0 0 24px #d6c9ff44}
+.brand-mark{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;overflow:hidden;background:#211a32;box-shadow:0 0 26px #ff36b74a}.brand-mark img{width:100%;height:100%;object-fit:contain;display:block}
 .top-note{display:none}
 .intro{display:none}
 .eyebrow{display:inline-flex;align-items:center;gap:9px;border:1px solid #594b8224;border-radius:999px;background:#ffffff8c;padding:9px 14px;color:#6b6383;font-size:10px;font-weight:750;letter-spacing:.19em;text-transform:uppercase;backdrop-filter:blur(12px)}
@@ -20,15 +20,15 @@
 h1{font-family:var(--site-font-heading);font-size:clamp(36px,5.3vw,70px);line-height:.98;letter-spacing:-.065em;font-weight:780;max-width:780px;margin:22px auto 14px}
 h1 span{background:linear-gradient(100deg,#48b8ee 8%,#9e7df3 49%,#f16cb7 92%);-webkit-background-clip:text;background-clip:text;color:transparent}
 .subtitle{color:var(--muted);font-size:clamp(13px,1.4vw,16px);line-height:1.65;max-width:460px;margin:0 auto}
-.choice-grid{display:flex;flex-direction:column;gap:16px;width:min(620px,calc(100% - 40px));margin:clamp(28px,8vh,90px) auto 32px;padding:0;position:relative;z-index:1}
-.choice{min-height:clamp(190px,27vh,270px);width:100%;border:0;border-radius:calc(30px * var(--site-radius-scale));padding:28px clamp(24px,5vw,48px);position:relative;overflow:hidden;isolation:isolate;text-align:left;color:#100d1b;cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 24px 65px #2f23591a,inset 0 1px 0 #ffffffb8;transition:transform .35s cubic-bezier(.2,.8,.2,1),box-shadow .35s ease}
+.choice-grid{display:flex;flex-direction:column;gap:18px;width:min(620px,calc(100% - 40px));margin:clamp(24px,6vh,66px) auto 32px;padding:0;position:relative;z-index:1}
+.choice{min-height:clamp(190px,27vh,270px);width:100%;border:1px solid #ffffff55;border-radius:calc(30px * var(--site-radius-scale));padding:28px clamp(24px,5vw,48px);position:relative;overflow:hidden;isolation:isolate;text-align:left;color:#fff;cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 0 32px #05cfff30,0 24px 65px #0008,inset 0 1px 0 #ffffff8a;transition:transform .35s cubic-bezier(.2,.8,.2,1),box-shadow .35s ease}
 .choice:hover{transform:translateY(-6px);box-shadow:0 32px 80px #2f235929,inset 0 1px 0 #ffffffd9}.choice:focus-visible{outline:3px solid #5b4acb;outline-offset:5px}.choice:active{transform:scale(.99)}
-.choice-man{background:radial-gradient(ellipse at 88% 12%,#ffffffc7,transparent 32%),radial-gradient(ellipse at 5% 98%,#ffffff66,transparent 36%),linear-gradient(135deg,#00e5ff 0%,#13b9ff 48%,#5675ff 100%)}
-.choice-woman{background:radial-gradient(ellipse at 88% 12%,#ffffffc7,transparent 32%),radial-gradient(ellipse at 5% 98%,#ffffff6b,transparent 36%),linear-gradient(135deg,#ff39c8 0%,#ff4f9b 48%,#ff8b51 100%)}
+.choice-man{background:radial-gradient(ellipse at 85% 0%,#04d9ff55,transparent 44%),radial-gradient(ellipse at 15% 100%,#1168ff77,transparent 52%),linear-gradient(135deg,#031c39 0%,#052a56 52%,#071743 100%);border-color:#1be2ffb8;box-shadow:0 0 28px #00cfff35,0 24px 65px #0008,inset 0 1px 0 #ffffff66}
+.choice-woman{background:radial-gradient(ellipse at 85% 0%,#ff27b955,transparent 44%),radial-gradient(ellipse at 15% 100%,#b30d7c77,transparent 52%),linear-gradient(135deg,#350725 0%,#570b43 52%,#270b36 100%);border-color:#ff5bc4c9;box-shadow:0 0 30px #ff18b538,0 24px 65px #0008,inset 0 1px 0 #ffffff66}
 .orb{position:absolute;z-index:-1;pointer-events:none;border-radius:50%;opacity:.48;border:1px solid #ffffffbf}.orb-one{width:250px;height:250px;right:-66px;top:95px}.orb-two{width:190px;height:190px;right:-35px;top:125px;background:#ffffff29}.orb-three{width:125px;height:125px;right:-4px;top:158px;background:#ffffff2e}
 .choice-top{width:100%;display:flex;justify-content:space-between;align-items:center}.choice-index{display:none}
 .symbol{width:82px;height:82px;border-radius:50%;border:1.5px solid #ffffffed;background:#ffffff72;display:grid;place-items:center;box-shadow:0 8px 30px #10101f25,inset 0 1px 1px #ffffffcc;backdrop-filter:blur(8px)}
-.symbol svg{width:49px;height:49px;overflow:visible}.choice-main{margin:auto;padding:0;display:flex;align-items:center;justify-content:center;width:100%;height:100%}.choice h2{display:flex;align-items:center;justify-content:center;margin:0;font-weight:800}.person-icon{display:block;width:clamp(78px,9vw,104px);height:clamp(78px,9vw,104px);filter:drop-shadow(0 5px 9px #100d1b18);transition:transform .3s ease}.choice:hover .person-icon{transform:translateY(-3px) scale(1.035)}
+.symbol svg{width:49px;height:49px;overflow:visible}.choice-main{margin:auto;padding:0;display:flex;align-items:center;justify-content:center;width:100%;height:100%}.choice h2{display:flex;align-items:center;justify-content:center;margin:0;font-weight:800}.person-icon{display:block;width:clamp(88px,10vw,112px);height:clamp(88px,10vw,112px);filter:drop-shadow(0 0 4px #fff) drop-shadow(0 0 12px #75f2ff) drop-shadow(0 0 25px #00bfff88);transition:transform .3s ease}.choice:hover .person-icon{transform:translateY(-3px) scale(1.06);filter:drop-shadow(0 0 5px #fff) drop-shadow(0 0 16px #75f2ff) drop-shadow(0 0 34px #00bfffaa)}
 .choice-copy{display:none}
 .choice-bottom{display:none}
 .arrow-circle{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:#ffffff85;font-size:18px;transition:transform .25s ease}.choice:hover .arrow-circle{transform:translateX(4px)}
@@ -41,7 +41,7 @@ h1 span{background:linear-gradient(100deg,#48b8ee 8%,#9e7df3 49%,#f16cb7 92%);-w
 .back{border:0;background:transparent;color:#bcb2d2;cursor:pointer;margin-top:28px;padding:12px 16px;font-size:12px;font-weight:750;letter-spacing:.1em;text-transform:uppercase}.demo-note{display:none}
 @keyframes reveal{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
 @media(min-width:1100px) and (min-height:850px){.intro{padding-top:42px;padding-bottom:38px}.choice{min-height:490px}}
-@media(max-width:680px){.topbar{height:70px;padding:0 20px}.brand{font-size:11px;letter-spacing:.13em;gap:9px}.brand-mark{width:30px;height:30px;border-radius:10px}.choice-grid{width:calc(100% - 28px);gap:14px;margin:clamp(24px,7vh,60px) auto 24px}.choice{min-height:clamp(180px,25vh,230px);border-radius:24px;padding:24px}.symbol{width:58px;height:58px}.symbol svg{width:36px;height:36px}.person-icon{width:76px;height:76px}.choice-main{padding:0}.orb-one{width:190px;height:190px;right:-44px;top:40px}.orb-two{width:145px;height:145px;right:-20px;top:60px}.orb-three{width:100px;height:100px;right:2px;top:82px}.language-screen{min-height:calc(100vh - 70px);padding:34px 18px 48px}.language-grid{grid-template-columns:1fr;gap:9px}.language-option{padding:17px 18px;border-radius:16px}}
+@media(max-width:680px){.topbar{height:82px;padding:0 20px}.brand{font-size:12px;letter-spacing:.22em}.brand-mark{width:32px;height:32px}.brand{font-size:11px;letter-spacing:.13em;gap:9px}.brand-mark{width:30px;height:30px;border-radius:10px}.choice-grid{width:calc(100% - 28px);gap:14px;margin:clamp(24px,7vh,60px) auto 24px}.choice{min-height:clamp(180px,25vh,230px);border-radius:24px;padding:24px}.symbol{width:58px;height:58px}.symbol svg{width:36px;height:36px}.person-icon{width:76px;height:76px}.choice-main{padding:0}.orb-one{width:190px;height:190px;right:-44px;top:40px}.orb-two{width:145px;height:145px;right:-20px;top:60px}.orb-three{width:100px;height:100px;right:2px;top:82px}.language-screen{min-height:calc(100vh - 70px);padding:34px 18px 48px}.language-grid{grid-template-columns:1fr;gap:9px}.language-option{padding:17px 18px;border-radius:16px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{transition-duration:.01ms!important;animation-duration:.01ms!important}}
 </style>
 </head>
@@ -50,7 +50,7 @@ h1 span{background:linear-gradient(100deg,#48b8ee 8%,#9e7df3 49%,#f16cb7 92%);-w
 <header class="topbar"><div class="brand"><span class="brand-mark"><img src="favicon.png" alt=""></span><span>Tantra Ritual</span></div></header>
 <section class="home-screen" id="homeScreen">
 <div class="choice-grid">
-<button class="choice choice-man" type="button" data-choice="man" aria-label="For him"><span class="orb orb-one"></span><span class="orb orb-two"></span><span class="orb orb-three"></span><span class="choice-main"><h2 aria-hidden="true"><svg class="person-icon" viewBox="0 0 64 64" fill="none" aria-hidden="true"><circle cx="25" cy="39" r="17" stroke="#101020" stroke-width="1.8"/><path d="M37 26L51 12M39 12H51V24" stroke="#101020" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></h2></span></button>
+<button class="choice choice-man" type="button" data-choice="man" aria-label="For him"><span class="orb orb-one"></span><span class="orb orb-two"></span><span class="orb orb-three"></span><span class="choice-main"><h2 aria-hidden="true"><svg class="person-icon" viewBox="0 0 64 64" fill="none" aria-hidden="true"><circle cx="25" cy="39" r="17" stroke="#ffffff" stroke-width="2.6"/><path d="M37 26L51 12M39 12H51V24" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></h2></span></button>
 <button class="choice choice-woman" type="button" data-choice="woman" aria-label="For her"><span class="orb orb-one"></span><span class="orb orb-two"></span><span class="orb orb-three"></span><span class="choice-main"><h2 aria-hidden="true"><svg class="person-icon" viewBox="0 0 64 64" fill="none" aria-hidden="true"><circle cx="32" cy="25" r="17" stroke="#101020" stroke-width="1.8"/><path d="M32 42V56M26 50L32 56L38 50" stroke="#101020" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></h2></span></button>
 </section>
 <section class="language-screen" id="languageScreen" aria-live="polite"><h2 class="language-title">Язык</h2><div class="language-grid">
