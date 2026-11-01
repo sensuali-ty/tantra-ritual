@@ -2204,3 +2204,12 @@ footer a {
   .balance-story-text { width: 88vw; }
   .balance-story-text p { line-height: 1.75; margin-bottom: 20px; }
 }
+
+/* Fireplace video: restore only 25% of the previous combined darkening */
+.fireplace-video-section .sessions-video-overlay {
+  background: linear-gradient(
+    to bottom,
+    rgba(14, 10, 8, 0.18),
+    rgba(14, 10, 8, 0.21)
+  );
+}
