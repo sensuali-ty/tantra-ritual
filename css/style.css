@@ -2227,7 +2227,7 @@ footer a {
   color: rgba(255, 255, 255, 0.82);
 }
 
-.video-sessions .program-video-content .telegram-accent {
+.program-video-section .program-video-content .telegram-accent {
   display: inline-flex;
   align-items: center;
   margin: 0;
@@ -2243,7 +2243,7 @@ footer a {
   text-shadow: 0 2px 12px rgba(0, 0, 0, 0.35);
 }
 
-.video-sessions .program-video-content .telegram-accent strong {
+.program-video-section .program-video-content .telegram-accent strong {
   font-weight: 600;
 }
 
@@ -2254,7 +2254,7 @@ footer a {
     letter-spacing: 0.16em;
   }
 
-  .video-sessions .program-video-content .telegram-accent {
+  .program-video-section .program-video-content .telegram-accent {
     padding: 10px 17px;
     font-size: clamp(25px, 7vw, 31px);
     letter-spacing: 0.04em;
