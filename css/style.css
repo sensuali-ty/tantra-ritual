@@ -2213,3 +2213,95 @@ footer a {
     rgba(14, 10, 8, 0.21)
   );
 }
+
+
+/* ===== REFINED SESSION INFO + COMPACT BIO ===== */
+
+/* Clearer duration and price hierarchy over the session video */
+.video-sessions .program-video-content .program-kicker {
+  display: inline-block;
+  margin-bottom: 18px;
+  font-size: clamp(16px, 1.35vw, 19px);
+  line-height: 1.3;
+  letter-spacing: 0.2em;
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.video-sessions .program-video-content .telegram-accent {
+  display: inline-flex;
+  align-items: center;
+  margin: 0;
+  padding: 10px 18px;
+  border: 1px solid rgba(226, 190, 145, 0.58);
+  border-radius: 999px;
+  background: rgba(24, 17, 13, 0.34);
+  color: #f4dfc4;
+  font-size: clamp(27px, 2.4vw, 34px);
+  line-height: 1.15;
+  letter-spacing: 0.06em;
+  text-transform: none;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.35);
+}
+
+.video-sessions .program-video-content .telegram-accent strong {
+  font-weight: 600;
+}
+
+@media (max-width: 900px) {
+  .video-sessions .program-video-content .program-kicker {
+    margin-bottom: 16px;
+    font-size: 15px;
+    letter-spacing: 0.16em;
+  }
+
+  .video-sessions .program-video-content .telegram-accent {
+    padding: 10px 17px;
+    font-size: clamp(25px, 7vw, 31px);
+    letter-spacing: 0.04em;
+  }
+}
+
+/* More compact editorial treatment for the biography on the home page */
+.about.about-bio {
+  padding: clamp(42px, 5.5vw, 72px) 20px;
+  background: #f6f3ee;
+}
+
+.about.about-bio p {
+  max-width: 790px;
+  margin: 0 auto 13px;
+  padding-left: 17px;
+  border-left: 2px solid rgba(151, 112, 76, 0.42);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: clamp(15px, 1.2vw, 18px);
+  line-height: 1.58;
+  color: #403832;
+}
+
+.about.about-bio p:last-of-type {
+  margin-bottom: 28px;
+}
+
+.about.about-bio .gallery {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  .about.about-bio {
+    padding: 42px 20px;
+  }
+
+  .about.about-bio p {
+    width: 100%;
+    margin-bottom: 11px;
+    padding-left: 14px;
+    font-size: 15px;
+    line-height: 1.55;
+  }
+
+  .about.about-bio p:last-of-type {
+    margin-bottom: 23px;
+  }
+}
