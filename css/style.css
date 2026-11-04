@@ -2218,7 +2218,7 @@ footer a {
 /* ===== REFINED SESSION INFO + COMPACT BIO ===== */
 
 /* Clearer duration and price hierarchy over the session video */
-.video-sessions .program-video-content .program-kicker {
+.program-video-section:not(.fireplace-video-section) .program-video-content .program-kicker {
   display: inline-block;
   margin-bottom: 18px;
   font-size: clamp(18px, 1.4vw, 21px);
@@ -2227,7 +2227,7 @@ footer a {
   color: rgba(255, 255, 255, 0.82);
 }
 
-.program-video-section .program-video-content .telegram-accent {
+.program-video-section:not(.fireplace-video-section) .program-video-content .telegram-accent {
   display: inline-flex;
   align-items: center;
   margin: 0;
@@ -2243,18 +2243,18 @@ footer a {
   text-shadow: 0 2px 12px rgba(0, 0, 0, 0.35);
 }
 
-.program-video-section .program-video-content .telegram-accent strong {
+.program-video-section:not(.fireplace-video-section) .program-video-content .telegram-accent strong {
   font-weight: 600;
 }
 
 @media (max-width: 900px) {
-  .video-sessions .program-video-content .program-kicker {
+  .program-video-section:not(.fireplace-video-section) .program-video-content .program-kicker {
     margin-bottom: 16px;
     font-size: 17px;
     letter-spacing: 0.16em;
   }
 
-  .program-video-section .program-video-content .telegram-accent {
+  .program-video-section:not(.fireplace-video-section) .program-video-content .telegram-accent {
     padding: 10px 17px;
     font-size: clamp(25px, 7vw, 31px);
     letter-spacing: 0.04em;
