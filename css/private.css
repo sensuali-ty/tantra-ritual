@@ -624,3 +624,48 @@ body {
 
   color: rgba(255, 247, 239, 0.82);
 }
+
+
+/* ===== Inline archive video under the introduction ===== */
+.archive-about-video-wrap {
+  position: relative;
+  width: min(860px, 100%);
+  margin: 30px auto 0;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 22px;
+  background: #17100c;
+  box-shadow: 0 22px 60px rgba(49, 28, 18, 0.16);
+}
+
+.archive-about-video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.archive-video-play {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 64px;
+  height: 64px;
+  border: 1px solid rgba(255,255,255,.7);
+  border-radius: 50%;
+  background: rgba(20, 14, 11, .58);
+  color: #fff;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.archive-video-play[hidden] {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .archive-about-video-wrap {
+    margin-top: 26px;
+    border-radius: 16px;
+  }
+}
